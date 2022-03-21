@@ -2,7 +2,7 @@ import react from "react";
 import './ExpenseForm.css';
 
 const ExpenseForm = () => {
-return <form>
+return ( <form>
     <div className="new-expense__control">
         <div className="new-expense__control">
             <label>Title</label>
@@ -21,6 +21,7 @@ return <form>
         <button type="submit">Add Expense</button>
     </div>
 </form>
+);
 }; 
 
 export default ExpenseForm;
